@@ -44,3 +44,4 @@ function Calc() {
   }
 }
 </script>
+//javascript: (() => {   alert(Date());; })();
