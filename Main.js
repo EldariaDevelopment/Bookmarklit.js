@@ -1,8 +1,7 @@
 <script>
-window.onload = function Start1() {
+window.onload = function OnStart() {
   let Command = prompt("Enter Entry");
   let x = 1;
-
   switch (Command) {
     case "time":
       alert(Date());
@@ -11,9 +10,8 @@ window.onload = function Start1() {
       Calc()
       break;
     default:
-      text = "No value found";
+      alert("No value found");
   }
-  document.getElementById("demo").innerHTML = text;
 }
 
 function Calc() {
@@ -38,6 +36,10 @@ function Calc() {
       alert(resultNum)
       break;
     case "/":
+      resultNum = (CalcX / CalcZ);
+      alert(resultNum)
+      break;
+    case "pi":
       resultNum = (CalcX / CalcZ);
       alert(resultNum)
       break;
