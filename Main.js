@@ -17,9 +17,9 @@ window.onload = function Start1() {
 }
 
 function Calc() {
- 	let CalcX = prompt("Enter first number");
-    let CalcY = prompt("Enter Operator");
-	let CalcZ = prompt("Enter Second number");
+  let CalcX = prompt("Enter first number");
+  let CalcY = prompt("Enter Operator");
+  let CalcZ = prompt("Enter Second number");
   switch(CalcY) {
     case "**":
       resultNum = (CalcX ** CalcZ);
@@ -45,3 +45,4 @@ function Calc() {
 }
 </script>
 //javascript: (() => {   alert(Date());; })();
+// Bookmarklet example
