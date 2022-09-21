@@ -1,7 +1,7 @@
 ## Experimental
-This program makes a prompt to open that can choose from a simple calcator and an alert to announce the time.
+This program makes a prompt to open that can choose from a simple calculator and an alert to announce the time.
 ### Uses:
-I have no clue!
+Simple calculator, more coming soon.
 ### Installation
 First make a bookmark using function such as:
 ```
